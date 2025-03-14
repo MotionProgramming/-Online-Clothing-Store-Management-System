@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #e3f2fd; /* Lighter blue background */
+  font-family: 'Rubik', sans-serif;
+}
+
+.signup-form {
+  background: #ffffff;
+  width: 500px;
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.3);
+}
+
+.signup-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: 300;
+  color: #2c3e50; /* Dark navy text for clarity */
+}
+
+.signup-form .content {
+  padding: 35px;
+  text-align: center;
+}
+
+.signup-form .input-field {
+  padding: 12px 5px;
+}
+
+.signup-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 2px solid #90caf9; /* Softer blue border color */
+  outline: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.signup-form a.link {
+  text-decoration: none;
+  color: #546e7a; /* Dark teal link color */
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.signup-form .action {
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-form .action button {
+  width: 100%;
+  border: none;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #a5d6a7; /* Soft mint green for the first button */
+  color: #1e2d3a; /* Dark text */
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.signup-form .action button:hover {
+  background: #66bb6a; /* Slightly darker mint green on hover */
+}
+
+.signup-form .action button:nth-child(2) {
+  background: #64b5f6; /* Soft blue for the second button */
+  color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+
+.signup-form .action button:nth-child(2):hover {
+  background: #42a5f5; /* Darker blue on hover */
+}
